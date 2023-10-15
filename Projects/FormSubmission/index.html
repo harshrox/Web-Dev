@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="toggle">
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+</div>
+
+
+
+
+<form action="">
+    <div id="form">
+        <div id="cardView">
+            <div id="heading">
+                CALCULATOR
+            </div>
+            <div class="inputs">
+                <label for="numberOne">Number 1:</label>
+                <input type="text" name="op1" id="numberOne" class="blackWhite">
+            </div>
+            <div class="inputs">
+                <label for="numberTwo">Number 2:</label>
+                <input type="text" name="op2" id="numberTwo" class="blackWhite">
+            </div>  
+            <div class="inputs">
+                <label for="operation">Operation:</label>
+                <select id="operation" name="operation" class="blackWhite">
+                    <option value="add">Addition</option>
+                    <option value="sub">Subtraction</option>
+                    <option value="mul">Multiplication</option>
+                    <option value="div">Division</option>
+                </select>
+            </div>  
+            <div id="submit">
+                <input type="submit" value="Calculate" class="blackWhite">
+
+            </div>
+            <div id="result">
+                
+            </div>
+        </div>
+    </div> 
+</form>
+
+
+<script src="script.js"></script>
+</body>
+</html> 

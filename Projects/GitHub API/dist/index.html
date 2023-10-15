@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add a meta tag for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 flex items-center justify-center min-h-screen">
+    <div>
+        <form action="">
+            <div id="input" class="my-8 flex-col">
+                <div><input type="text" id="username" class="w-full pl-1 rounded-md bg-slate-300 placeholder:text-center" placeholder="Username"></div>
+
+                <div class="flex justify-center bg-black text-white rounded-md"><input type="submit" class="cursor-pointer"></div>
+            </div>
+        </form>
+        <div class="max-w-[600px] w-[200px] md:w-[400px] bg-black rounded-xl shadow-md">
+            <div class="md:flex">
+                <div class="md:w-40">
+                    <img class="w-full h-40 object-contain rounded-xl md:rounded-l-xl md:rounded-r-none" id="image" src="https://4kwallpapers.com/images/wallpapers/grand-theft-auto-vi-2880x1800-10825.png" alt="None">
+                </div>
+                <div class="md:flex-grow text-white border-t border-slate-800 md:border-t-0">
+                    <div class="md:h-40 border-slate-800 md:border-l-2 md:py-2 grid place-content-center">
+                        <h1 class="font-mono text-lg" id="name">Grand Theft Auto VI</h1>
+                        <p class="text-gray-600 text-lg" id="repo">By Rockstar Games</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
